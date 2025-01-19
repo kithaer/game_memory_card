@@ -1,9 +1,10 @@
-#Создай собственный Шутер!
 from time import time as timer
 from pygame import *
 from random import randint
+
 window = display.set_mode((700,500))
 display.set_caption('Шутер')
+
 mixer.init()
 mixer.music.load('space.ogg')
 mixer.music.play()
